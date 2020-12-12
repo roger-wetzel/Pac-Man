@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A0CAE2559D80C00D6D54D /* Pellet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A0CAD2559D80C00D6D54D /* Pellet.swift */; };
+		DB1A0CB32559D83E00D6D54D /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A0CB22559D83E00D6D54D /* Dot.swift */; };
+		DB1A0CB82559D87D00D6D54D /* Energizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A0CB72559D87D00D6D54D /* Energizer.swift */; };
+		DB2060CA256BB43800F506D6 /* arcade_r.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB2060C9256BB43800F506D6 /* arcade_r.ttf */; };
+		DB2060D3256BF9EC00F506D6 /* Lives.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2060D2256BF9EC00F506D6 /* Lives.swift */; };
+		DB2060DB256D4D8600F506D6 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2060DA256D4D8600F506D6 /* Maze.swift */; };
+		DB2060E6256D4FA000F506D6 /* Pellets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2060E5256D4FA000F506D6 /* Pellets.swift */; };
+		DB31A71E257927240093114A /* Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB31A71D257927240093114A /* Particle.sks */; };
+		DB349C2925763CB200FF06DF /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB349C2825763CB200FF06DF /* Display.swift */; };
+		DB6D824F254809ED009D98B3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB6D824E254809ED009D98B3 /* GameScene.sks */; };
+		DB6D829A25482E82009D98B3 /* Blinky.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D829925482E82009D98B3 /* Blinky.swift */; };
+		DB6D82A525483110009D98B3 /* Ghost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82A425483110009D98B3 /* Ghost.swift */; };
+		DB6D82AD25485D65009D98B3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82AC25485D65009D98B3 /* Game.swift */; };
+		DB6D82B52548A258009D98B3 /* Pinky.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82B42548A258009D98B3 /* Pinky.swift */; };
+		DB6D82BA2548A39B009D98B3 /* Inky.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82B92548A39B009D98B3 /* Inky.swift */; };
+		DB6D82BF2548A3B1009D98B3 /* Clyde.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82BE2548A3B1009D98B3 /* Clyde.swift */; };
+		DB6D82C7254B3F43009D98B3 /* PacManShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82C6254B3F43009D98B3 /* PacManShape.swift */; };
+		DB6D82D2254B4A7D009D98B3 /* PacMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D82D1254B4A7D009D98B3 /* PacMan.swift */; };
+		DBB458E6256028D9005C9D07 /* Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB458E5256028D9005C9D07 /* Figure.swift */; };
+		DBB458F1256271DA005C9D07 /* Autopilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB458F0256271DA005C9D07 /* Autopilot.swift */; };
+		DBC89051253B2F2400C3E72B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC89050253B2F2400C3E72B /* AppDelegate.swift */; };
+		DBC89057253B2F2400C3E72B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC89056253B2F2400C3E72B /* GameScene.swift */; };
+		DBC89059253B2F2400C3E72B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC89058253B2F2400C3E72B /* GameViewController.swift */; };
+		DBC8905C253B2F2400C3E72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC8905A253B2F2400C3E72B /* Main.storyboard */; };
+		DBC8905E253B2F2600C3E72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8905D253B2F2600C3E72B /* Assets.xcassets */; };
+		DBC89061253B2F2600C3E72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC8905F253B2F2600C3E72B /* LaunchScreen.storyboard */; };
+		DBC89088253DB4CC00C3E72B /* GhostShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC89087253DB4CC00C3E72B /* GhostShape.swift */; };
+		DBC8908D2541672900C3E72B /* MazeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8908C2541672900C3E72B /* MazeShape.swift */; };
+		DBC890922544967A00C3E72B /* GridShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC890912544967A00C3E72B /* GridShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1A0CAD2559D80C00D6D54D /* Pellet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pellet.swift; sourceTree = "<group>"; };
+		DB1A0CB22559D83E00D6D54D /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		DB1A0CB72559D87D00D6D54D /* Energizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energizer.swift; sourceTree = "<group>"; };
+		DB2060C9256BB43800F506D6 /* arcade_r.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arcade_r.ttf; sourceTree = "<group>"; };
+		DB2060D2256BF9EC00F506D6 /* Lives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lives.swift; sourceTree = "<group>"; };
+		DB2060DA256D4D8600F506D6 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		DB2060E5256D4FA000F506D6 /* Pellets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pellets.swift; sourceTree = "<group>"; };
+		DB31A71D257927240093114A /* Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particle.sks; sourceTree = "<group>"; };
+		DB349C2825763CB200FF06DF /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		DB6D824E254809ED009D98B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DB6D829925482E82009D98B3 /* Blinky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blinky.swift; sourceTree = "<group>"; };
+		DB6D82A425483110009D98B3 /* Ghost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost.swift; sourceTree = "<group>"; };
+		DB6D82AC25485D65009D98B3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DB6D82B42548A258009D98B3 /* Pinky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinky.swift; sourceTree = "<group>"; };
+		DB6D82B92548A39B009D98B3 /* Inky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inky.swift; sourceTree = "<group>"; };
+		DB6D82BE2548A3B1009D98B3 /* Clyde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clyde.swift; sourceTree = "<group>"; };
+		DB6D82C6254B3F43009D98B3 /* PacManShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacManShape.swift; sourceTree = "<group>"; };
+		DB6D82D1254B4A7D009D98B3 /* PacMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacMan.swift; sourceTree = "<group>"; };
+		DBB458E5256028D9005C9D07 /* Figure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figure.swift; sourceTree = "<group>"; };
+		DBB458F0256271DA005C9D07 /* Autopilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autopilot.swift; sourceTree = "<group>"; };
+		DBC8904D253B2F2400C3E72B /* Pacman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC89050253B2F2400C3E72B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC89056253B2F2400C3E72B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DBC89058253B2F2400C3E72B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DBC8905B253B2F2400C3E72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC8905D253B2F2600C3E72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC89060253B2F2600C3E72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC89062253B2F2600C3E72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC89087253DB4CC00C3E72B /* GhostShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostShape.swift; sourceTree = "<group>"; };
+		DBC8908C2541672900C3E72B /* MazeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeShape.swift; sourceTree = "<group>"; };
+		DBC890912544967A00C3E72B /* GridShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC8904A253B2F2400C3E72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2060CE256BBAFD00F506D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB2060C9256BB43800F506D6 /* arcade_r.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBC89044253B2F2400C3E72B = {
+			isa = PBXGroup;
+			children = (
+				DBC8904F253B2F2400C3E72B /* Pacman */,
+				DBC8904E253B2F2400C3E72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC8904E253B2F2400C3E72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8904D253B2F2400C3E72B /* Pacman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC8904F253B2F2400C3E72B /* Pacman */ = {
+			isa = PBXGroup;
+			children = (
+				DB2060CE256BBAFD00F506D6 /* Resources */,
+				DBC89050253B2F2400C3E72B /* AppDelegate.swift */,
+				DBC89056253B2F2400C3E72B /* GameScene.swift */,
+				DB6D824E254809ED009D98B3 /* GameScene.sks */,
+				DBC89058253B2F2400C3E72B /* GameViewController.swift */,
+				DBC8905A253B2F2400C3E72B /* Main.storyboard */,
+				DBC8905D253B2F2600C3E72B /* Assets.xcassets */,
+				DBC8905F253B2F2600C3E72B /* LaunchScreen.storyboard */,
+				DBC89062253B2F2600C3E72B /* Info.plist */,
+				DBC89087253DB4CC00C3E72B /* GhostShape.swift */,
+				DBC8908C2541672900C3E72B /* MazeShape.swift */,
+				DBC890912544967A00C3E72B /* GridShape.swift */,
+				DB6D82C6254B3F43009D98B3 /* PacManShape.swift */,
+				DB6D82AC25485D65009D98B3 /* Game.swift */,
+				DBB458E5256028D9005C9D07 /* Figure.swift */,
+				DB6D82D1254B4A7D009D98B3 /* PacMan.swift */,
+				DB6D82A425483110009D98B3 /* Ghost.swift */,
+				DBB458F0256271DA005C9D07 /* Autopilot.swift */,
+				DB6D829925482E82009D98B3 /* Blinky.swift */,
+				DB6D82B42548A258009D98B3 /* Pinky.swift */,
+				DB6D82B92548A39B009D98B3 /* Inky.swift */,
+				DB6D82BE2548A3B1009D98B3 /* Clyde.swift */,
+				DB1A0CAD2559D80C00D6D54D /* Pellet.swift */,
+				DB1A0CB22559D83E00D6D54D /* Dot.swift */,
+				DB1A0CB72559D87D00D6D54D /* Energizer.swift */,
+				DB2060DA256D4D8600F506D6 /* Maze.swift */,
+				DB2060D2256BF9EC00F506D6 /* Lives.swift */,
+				DB2060E5256D4FA000F506D6 /* Pellets.swift */,
+				DB349C2825763CB200FF06DF /* Display.swift */,
+				DB31A71D257927240093114A /* Particle.sks */,
+			);
+			path = Pacman;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC8904C253B2F2400C3E72B /* Pacman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8907B253B2F2700C3E72B /* Build configuration list for PBXNativeTarget "Pacman" */;
+			buildPhases = (
+				DBC89049253B2F2400C3E72B /* Sources */,
+				DBC8904A253B2F2400C3E72B /* Frameworks */,
+				DBC8904B253B2F2400C3E72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pacman;
+			productName = Pacman;
+			productReference = DBC8904D253B2F2400C3E72B /* Pacman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC89045253B2F2400C3E72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DBC8904C253B2F2400C3E72B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DBC89048253B2F2400C3E72B /* Build configuration list for PBXProject "Pacman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC89044253B2F2400C3E72B;
+			productRefGroup = DBC8904E253B2F2400C3E72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC8904C253B2F2400C3E72B /* Pacman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC8904B253B2F2400C3E72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2060CA256BB43800F506D6 /* arcade_r.ttf in Resources */,
+				DB31A71E257927240093114A /* Particle.sks in Resources */,
+				DB6D824F254809ED009D98B3 /* GameScene.sks in Resources */,
+				DBC8905C253B2F2400C3E72B /* Main.storyboard in Resources */,
+				DBC8905E253B2F2600C3E72B /* Assets.xcassets in Resources */,
+				DBC89061253B2F2600C3E72B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC89049253B2F2400C3E72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC89057253B2F2400C3E72B /* GameScene.swift in Sources */,
+				DB6D82C7254B3F43009D98B3 /* PacManShape.swift in Sources */,
+				DB6D82B52548A258009D98B3 /* Pinky.swift in Sources */,
+				DB6D82AD25485D65009D98B3 /* Game.swift in Sources */,
+				DB6D82BF2548A3B1009D98B3 /* Clyde.swift in Sources */,
+				DB2060E6256D4FA000F506D6 /* Pellets.swift in Sources */,
+				DBB458F1256271DA005C9D07 /* Autopilot.swift in Sources */,
+				DBB458E6256028D9005C9D07 /* Figure.swift in Sources */,
+				DBC89059253B2F2400C3E72B /* GameViewController.swift in Sources */,
+				DB1A0CB82559D87D00D6D54D /* Energizer.swift in Sources */,
+				DBC89051253B2F2400C3E72B /* AppDelegate.swift in Sources */,
+				DB349C2925763CB200FF06DF /* Display.swift in Sources */,
+				DB6D82A525483110009D98B3 /* Ghost.swift in Sources */,
+				DB2060D3256BF9EC00F506D6 /* Lives.swift in Sources */,
+				DBC89088253DB4CC00C3E72B /* GhostShape.swift in Sources */,
+				DB6D82BA2548A39B009D98B3 /* Inky.swift in Sources */,
+				DB1A0CAE2559D80C00D6D54D /* Pellet.swift in Sources */,
+				DB1A0CB32559D83E00D6D54D /* Dot.swift in Sources */,
+				DBC8908D2541672900C3E72B /* MazeShape.swift in Sources */,
+				DB6D82D2254B4A7D009D98B3 /* PacMan.swift in Sources */,
+				DBC890922544967A00C3E72B /* GridShape.swift in Sources */,
+				DB6D829A25482E82009D98B3 /* Blinky.swift in Sources */,
+				DB2060DB256D4D8600F506D6 /* Maze.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBC8905A253B2F2400C3E72B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC8905B253B2F2400C3E72B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC8905F253B2F2600C3E72B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC89060253B2F2600C3E72B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC89079253B2F2700C3E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		DBC8907A253B2F2700C3E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC8907C253B2F2700C3E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9FQ8E3R8N;
+				INFOPLIST_FILE = Pacman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.2go.Pacman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		DBC8907D253B2F2700C3E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9FQ8E3R8N;
+				INFOPLIST_FILE = Pacman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.2go.Pacman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC89048253B2F2400C3E72B /* Build configuration list for PBXProject "Pacman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC89079253B2F2700C3E72B /* Debug */,
+				DBC8907A253B2F2700C3E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8907B253B2F2700C3E72B /* Build configuration list for PBXNativeTarget "Pacman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8907C253B2F2700C3E72B /* Debug */,
+				DBC8907D253B2F2700C3E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC89045253B2F2400C3E72B /* Project object */;
+}
