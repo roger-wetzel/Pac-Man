@@ -303,10 +303,10 @@ class Ghost: Figure {
 
         // Speed
         var pattern = speedPattern // defaut speed (normal)
-        if isElroy1 {
-            pattern = speedPatternElroy1
-        } else if isElroy2 {
+        if isElroy2 {
             pattern = speedPatternElroy2
+        } else if isElroy1 {
+            pattern = speedPatternElroy1
         }
         if game.isTunnelSpace(tile) {
             pattern = speedPatternTunnel
